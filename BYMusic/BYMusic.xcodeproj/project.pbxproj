@@ -11,28 +11,28 @@
 		4984FB2F1DE2F74A00D7543E /* BYHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4984FB2E1DE2F74A00D7543E /* BYHomeVC.swift */; };
 		4984FB341DE2F74B00D7543E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4984FB331DE2F74B00D7543E /* Assets.xcassets */; };
 		4984FB371DE2F74B00D7543E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4984FB351DE2F74B00D7543E /* LaunchScreen.storyboard */; };
-		49882D791DE6F1C3009FBBDA /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49882D711DE6F09F009FBBDA /* SnapKit.framework */; };
-		49882D7A1DE6F1C3009FBBDA /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 49882D711DE6F09F009FBBDA /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		49FF34FC1DEFF8000035BD36 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49FF34F91DEFF6C40035BD36 /* SnapKit.framework */; };
+		49FF34FD1DEFF8000035BD36 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 49FF34F91DEFF6C40035BD36 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		49882D701DE6F09F009FBBDA /* PBXContainerItemProxy */ = {
+		49FF34F81DEFF6C40035BD36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 49882D6B1DE6F09F009FBBDA /* SnapKit.xcodeproj */;
+			containerPortal = 49FF34F31DEFF6C40035BD36 /* SnapKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
 			remoteInfo = SnapKit;
 		};
-		49882D721DE6F09F009FBBDA /* PBXContainerItemProxy */ = {
+		49FF34FA1DEFF6C40035BD36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 49882D6B1DE6F09F009FBBDA /* SnapKit.xcodeproj */;
+			containerPortal = 49FF34F31DEFF6C40035BD36 /* SnapKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
 			remoteInfo = "SnapKit Tests";
 		};
-		49882D7B1DE6F1C3009FBBDA /* PBXContainerItemProxy */ = {
+		49FF34FE1DEFF8000035BD36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 49882D6B1DE6F09F009FBBDA /* SnapKit.xcodeproj */;
+			containerPortal = 49FF34F31DEFF6C40035BD36 /* SnapKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = EEBCC9D719CC627D0083B827;
 			remoteInfo = SnapKit;
@@ -46,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				49882D7A1DE6F1C3009FBBDA /* SnapKit.framework in Embed Frameworks */,
+				49FF34FD1DEFF8000035BD36 /* SnapKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,7 +60,7 @@
 		4984FB331DE2F74B00D7543E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4984FB361DE2F74B00D7543E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4984FB381DE2F74B00D7543E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49882D6B1DE6F09F009FBBDA /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = "../../../../Downloads/SnapKit-develop/SnapKit.xcodeproj"; sourceTree = "<group>"; };
+		49FF34F31DEFF6C40035BD36 /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = "../../../../Downloads/SnapKit-develop/SnapKit.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49882D791DE6F1C3009FBBDA /* SnapKit.framework in Frameworks */,
+				49FF34FC1DEFF8000035BD36 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +78,7 @@
 		4984FB201DE2F74A00D7543E = {
 			isa = PBXGroup;
 			children = (
+				49FF34F31DEFF6C40035BD36 /* SnapKit.xcodeproj */,
 				4984FB2B1DE2F74A00D7543E /* BYMusic */,
 				4984FB2A1DE2F74A00D7543E /* Products */,
 			);
@@ -94,7 +95,6 @@
 		4984FB2B1DE2F74A00D7543E /* BYMusic */ = {
 			isa = PBXGroup;
 			children = (
-				49882D6B1DE6F09F009FBBDA /* SnapKit.xcodeproj */,
 				4984FB2C1DE2F74A00D7543E /* AppDelegate.swift */,
 				4984FB2E1DE2F74A00D7543E /* BYHomeVC.swift */,
 				4984FB331DE2F74B00D7543E /* Assets.xcassets */,
@@ -104,11 +104,11 @@
 			path = BYMusic;
 			sourceTree = "<group>";
 		};
-		49882D6C1DE6F09F009FBBDA /* Products */ = {
+		49FF34F41DEFF6C40035BD36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49882D711DE6F09F009FBBDA /* SnapKit.framework */,
-				49882D731DE6F09F009FBBDA /* SnapKit Tests.xctest */,
+				49FF34F91DEFF6C40035BD36 /* SnapKit.framework */,
+				49FF34FB1DEFF6C40035BD36 /* SnapKit Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,7 +128,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				49882D7C1DE6F1C3009FBBDA /* PBXTargetDependency */,
+				49FF34FF1DEFF8000035BD36 /* PBXTargetDependency */,
 			);
 			name = BYMusic;
 			productName = BYMusic;
@@ -165,8 +165,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 49882D6C1DE6F09F009FBBDA /* Products */;
-					ProjectRef = 49882D6B1DE6F09F009FBBDA /* SnapKit.xcodeproj */;
+					ProductGroup = 49FF34F41DEFF6C40035BD36 /* Products */;
+					ProjectRef = 49FF34F31DEFF6C40035BD36 /* SnapKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -177,18 +177,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		49882D711DE6F09F009FBBDA /* SnapKit.framework */ = {
+		49FF34F91DEFF6C40035BD36 /* SnapKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SnapKit.framework;
-			remoteRef = 49882D701DE6F09F009FBBDA /* PBXContainerItemProxy */;
+			remoteRef = 49FF34F81DEFF6C40035BD36 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		49882D731DE6F09F009FBBDA /* SnapKit Tests.xctest */ = {
+		49FF34FB1DEFF6C40035BD36 /* SnapKit Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "SnapKit Tests.xctest";
-			remoteRef = 49882D721DE6F09F009FBBDA /* PBXContainerItemProxy */;
+			remoteRef = 49FF34FA1DEFF6C40035BD36 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -218,10 +218,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		49882D7C1DE6F1C3009FBBDA /* PBXTargetDependency */ = {
+		49FF34FF1DEFF8000035BD36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
-			targetProxy = 49882D7B1DE6F1C3009FBBDA /* PBXContainerItemProxy */;
+			targetProxy = 49FF34FE1DEFF8000035BD36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,6 +336,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = Q55943TZNF;
 				INFOPLIST_FILE = BYMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lby.BYMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,6 +352,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = Q55943TZNF;
 				INFOPLIST_FILE = BYMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lby.BYMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
